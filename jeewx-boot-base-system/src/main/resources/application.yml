@@ -8,7 +8,7 @@ server:
  
 spring:
     profiles:
-        active: dev
+        active: openshift
   # 设置静态文件路径，js,css等
     mvc:
          pathmatch:
