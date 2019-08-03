@@ -156,7 +156,7 @@ public class WeixinUtil {
      * @return String 
      */  
     public static String encode(byte[] bstr){  
-    	return BASE64Encoder.encode(bstr);
+    	return com.jeecg.p3.weixin.util.BASE64Encoder.encode(bstr);
     } 
 
     //update-begin--Author:zhangweijian  Date: 20180802 for：上传多媒体文件
